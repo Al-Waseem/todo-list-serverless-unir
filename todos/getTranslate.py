@@ -23,5 +23,4 @@ def get(event, context):
                            cls=decimalencoder.DecimalEncoder)
     }
 
-    print("It works!")
     return response
